@@ -15,6 +15,9 @@ Todo lo que estoy aprendiendo de Git.
     - [Git clone](#git-clone)
     - [Git status](#git-status)
     - [Git add](#git-add)
+    - [.gitignore](#gitignore)
+    - [Git diff](#git-diff)
+    - [Git commit](#git-commit)
 
 ## Introducción
 
@@ -127,6 +130,22 @@ Te permite saber que archivos estan rastreados y los que no, asimismo te muestra
 
 A traves de este comando podremos empezar a rastrear los archivos que hemos modificado para luego poder confirmarlos de ser el caso.
 
-
 ### .gitignore
+
+Se usa cuando quieres que Git no rastree ciertos archivos y para ello puedes crear un archivo gitignore.
+
+### Git diff
+
+Se puede usar si quieres saber exactamente lo que has añadido o eliminado del archivo.
+
+### Git commit
+
+Una vez tu area de preparación esta como desees, podras confirmar tus cambios. Recuerda que solo confirmara los cambios que esten rastreados.
+
+Si quieres omitir el area de preparación, puedes utilizar el siguiente comando:
+
+```bash
+  $ git commit -a -m "add message"
+```
+Haras que lo prepare y lo confirme automaticamente.
 
