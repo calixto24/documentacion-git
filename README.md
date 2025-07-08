@@ -9,6 +9,7 @@ Todo lo que estoy aprendiendo de Git.
     - [¿Como maneja y almacena sus datos?](#como-maneja-y-almacena-sus-datos)
     - [¿Porque es rapido?](#porque-es-rapido)
     - [Los tres estados](#los-tres-estados)
+    - [Instalación y configuración inicial](#instalación-y-configuración-inicial)
 
 ## Introducción
 
@@ -60,5 +61,38 @@ Flujo de trabajo de Git:
 
 - Confirmas los cambios del area de preparación y se almacena al directorio git.
 
+## Instalación y configuración inicial
 
+### Instalación de Git
 
+- Verifica que este el git bash here
+
+![imagen](md/img3.png)
+
+- En este apartado pregunta sobre el editor visual a usar
+
+![imagen](md/img4.png)
+
+- Acerca de la rama principal, ahora se utiliza el main
+
+![imagen](md/img5.png)
+
+### Configuración incial de Git
+
+- Para ver la version de git que tienes.
+
+```bash
+  $ git --version 
+```
+
+- Configura el usuario que se usara en todos los proyectos.
+
+```bash
+  $ git config --global user.name "Jhordan Calixto" 
+```
+
+- Configura el email que se usara en todos los proyectos de manera global.
+
+```bash
+  $ git config --global user.email calixto4211@gmail.com
+```
