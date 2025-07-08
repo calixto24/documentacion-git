@@ -10,6 +10,8 @@ Todo lo que estoy aprendiendo de Git.
     - [¿Porque es rapido?](#porque-es-rapido)
     - [Los tres estados](#los-tres-estados)
     - [Instalación y configuración inicial](#instalación-y-configuración-inicial)
+- [2. Fundamentos](#fundamentos)
+    - [Iniciando un repositorio](#iniciando-un-repositorio)
 
 ## Introducción
 
@@ -31,11 +33,11 @@ Por su parte git, maneja sus datos como un conjunto de copias instantaneas, cuan
 
 ![imagen](md/img2.png)
 
-## ¿Porque es rapido?
+### ¿Porque es rapido?
 
 Para navegar por la historia del proyecto, Git no necesita conectarse al servidor para obtener la historia y mostrartela, ya que lo lee directamente de tu base de datos local. De esta manera ves la informacion de manera inmediata.
 
-## Los tres estados
+### Los tres estados
 
 Git tiene tres estados fundamentales:
 
@@ -61,7 +63,7 @@ Flujo de trabajo de Git:
 
 - Confirmas los cambios del area de preparación y se almacena al directorio git.
 
-## Instalación y configuración inicial
+### Instalación y configuración inicial
 
 ### Instalación de Git
 
@@ -85,14 +87,19 @@ Flujo de trabajo de Git:
   $ git --version 
 ```
 
-- Configura el usuario que se usara en todos los proyectos.
+- Lo primero que tienes que hacer es poner tu identidad, ya que es lo que git usará en todos los commits. Solo se hace una vez.
 
 ```bash
   $ git config --global user.name "Jhordan Calixto" 
-```
-
-- Configura el email que se usara en todos los proyectos de manera global.
-
-```bash
   $ git config --global user.email calixto4211@gmail.com
 ```
+
+## Fundamentos
+
+### Iniciando un repositorio
+
+```bash
+  $ git init
+```
+Cuando se utiliza este comando se crea un subdirectorio llamado .git el cual contiene todos los archivos del repositorio.
+
