@@ -11,7 +11,10 @@ Todo lo que estoy aprendiendo de Git.
     - [Los tres estados](#los-tres-estados)
     - [Instalación y configuración inicial](#instalación-y-configuración-inicial)
 - [2. Fundamentos](#fundamentos)
-    - [Iniciando un repositorio](#iniciando-un-repositorio)
+    - [Git init](#git-init)
+    - [Git clone](#git-clone)
+    - [Git status](#git-status)
+    - [Git add](#git-add)
 
 ## Introducción
 
@@ -96,10 +99,34 @@ Flujo de trabajo de Git:
 
 ## Fundamentos
 
-### Iniciando un repositorio
+### Git init
 
 ```bash
   $ git init
 ```
 Cuando se utiliza este comando se crea un subdirectorio llamado .git el cual contiene todos los archivos del repositorio.
+
+### Git clone
+
+Para poner el clonar un repositorio en el cual te gustaria interactuar, se usa el siguiente comando:
+
+```bash
+  $ git clone [url]
+```
+
+### Git status
+
+Para poder revisar el estado de tus archivos puedes usar el siguiente comando:
+
+```bash
+  $ git status
+```
+Te permite saber que archivos estan rastreados y los que no, asimismo te muestra la rama en la que te encuentras.
+
+### Git Add
+
+A traves de este comando podremos empezar a rastrear los archivos que hemos modificado para luego poder confirmarlos de ser el caso.
+
+
+### .gitignore
 
