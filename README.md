@@ -1,3 +1,10 @@
-# documentacion-git
+# Documentación Git
 
-Hola mundo
+Todo lo que estoy aprendiendo de Git.
+
+## Indice
+- [1. Introducción](#introduccion)
+    - [¿Que es git?]()
+
+
+## Introducción
