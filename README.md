@@ -18,6 +18,7 @@ Todo lo que estoy aprendiendo de Git.
     - [.gitignore](#gitignore)
     - [Git diff](#git-diff)
     - [Git commit](#git-commit)
+    - [Git rm](#git-rm)
 
 ## Introducción
 
@@ -148,4 +149,7 @@ Si quieres omitir el area de preparación, puedes utilizar el siguiente comando:
   $ git commit -a -m "add message"
 ```
 Haras que lo prepare y lo confirme automaticamente.
+
+### Git rm
+
 
