@@ -19,6 +19,7 @@ Todo lo que estoy aprendiendo de Git.
     - [Git diff](#git-diff)
     - [Git commit](#git-commit)
     - [Git rm](#git-rm)
+    - [Git log](#git-log)
 
 ## Introducción
 
@@ -127,9 +128,15 @@ Para poder revisar el estado de tus archivos puedes usar el siguiente comando:
 ```
 Te permite saber que archivos estan rastreados y los que no, asimismo te muestra la rama en la que te encuentras.
 
-### Git Add
+### Git add
 
 A traves de este comando podremos empezar a rastrear los archivos que hemos modificado para luego poder confirmarlos de ser el caso.
+
+En caso quieras hayas preparado dos archivos pero quieres subir solo uno, puedes deshacer un archivo preparado usando:
+
+```bash
+  $ git reset HEAD <Nombre>
+```
 
 ### .gitignore
 
@@ -150,6 +157,18 @@ Si quieres omitir el area de preparación, puedes utilizar el siguiente comando:
 ```
 Haras que lo prepare y lo confirme automaticamente.
 
+Si te olvidaste a añadir alguna modificacion mas y ya confirmaste los cambios puedes utilizar el siguiente comando.
+
+```bash
+  $ git commit --amend
+```
+
 ### Git rm
 
+Este comando se utiliza para eliminar archivos, directorios y patrones glob, ademas de ya no sean rastreados.
 
+### Git log
+
+Este comando se usa para poder visualizar la historia del repositorio.
+
+Usas el :q para salir del log.
